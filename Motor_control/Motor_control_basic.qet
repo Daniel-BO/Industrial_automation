@@ -1,6 +1,6 @@
 <project title="motor_control_basic" version="0.90">
     <properties>
-        <property name="savedtime" show="1">01:20</property>
+        <property name="savedtime" show="1">01:21</property>
         <property name="savedfilepath" show="1">/home/danielbo/Documents/Control_and_automation/Motor_control/Motor_control_basic.qet</property>
         <property name="saveddate-eu" show="1">23-02-2026</property>
         <property name="saveddate" show="1">2/23/26</property>
@@ -38,7 +38,7 @@
                     <elementInformation name="label" show="1">QF1</elementInformation>
                 </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{5f84c4b6-d483-4147-ad73-f64176a5e240}" Halignment="AlignLeft" y="-12" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="ElementInfo" x="50">
+                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{5f84c4b6-d483-4147-ad73-f64176a5e240}" Halignment="AlignLeft" y="0" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="ElementInfo" x="-100">
                         <text>QF1</text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
@@ -54,9 +54,13 @@
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="label" show="1">T1</elementInformation>
                 </elementInformations>
-                <dynamic_texts/>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{0df3d0c5-fa74-4f1a-a99f-f0c6d2468390}" Halignment="AlignLeft" y="-20" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="-40">
+                        <text>T1</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
                 <texts_groups/>
             </element>
             <element uuid="{7c8ad7a0-49e7-4648-939a-e53f5c3ed564}" y="140" z="10" orientation="3" prefix="" type="embed://import/10_electric/10_allpole/110_network_supplies/3_pen_pravy.elmt" freezeLabel="false" x="180">
@@ -150,7 +154,7 @@
                     <dynamic_elmt_text keep_visual_rotation="true" uuid="{2b95c1cd-5be6-4ae8-8425-a019aef8e18e}" Halignment="AlignLeft" y="5" frame="false" text_width="-1" rotation="90" Valignment="AlignTop" font="Sans Serif,5,-1,5,25,0,0,0,0,0" text_from="UserText" x="-3">
                         <text>2</text>
                     </dynamic_elmt_text>
-                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{a2613ffc-8b54-4343-9311-089ca3e74557}" Halignment="AlignLeft" y="-17" frame="false" text_width="-1" rotation="90" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="-30">
+                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{a2613ffc-8b54-4343-9311-089ca3e74557}" Halignment="AlignLeft" y="-20" frame="false" text_width="-1" rotation="90" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="40">
                         <text>F2</text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
@@ -325,6 +329,65 @@
                 </dynamic_texts>
                 <texts_groups/>
             </element>
+            <element uuid="{39cc9c6a-a7c4-4fc8-bc12-89ff5cb22483}" y="630" z="10" orientation="0" prefix="" type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" freezeLabel="false" x="210">
+                <terminals>
+                    <terminal id="49" y="-7" orientation="0" x="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="manufacturer" show="1"></elementInformation>
+                    <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="quantity" show="1"></elementInformation>
+                    <elementInformation name="unity" show="1"></elementInformation>
+                    <elementInformation name="description" show="1"></elementInformation>
+                    <elementInformation name="designation" show="1"></elementInformation>
+                    <elementInformation name="plant" show="1"></elementInformation>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                    <elementInformation name="supplier" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_led="false" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{65d66f9e-d64b-4478-8f7f-324b1ef73ad3}" Halignment="AlignLeft" y="-22.5" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="2">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{cbbb93c1-8abb-4f34-bebc-74391041388e}" y="550" z="10" orientation="0" prefix="" type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" freezeLabel="false" x="270">
+                <terminals>
+                    <terminal id="50" y="-7" orientation="0" x="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="manufacturer" show="1"></elementInformation>
+                    <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="quantity" show="1"></elementInformation>
+                    <elementInformation name="unity" show="1"></elementInformation>
+                    <elementInformation name="description" show="1"></elementInformation>
+                    <elementInformation name="designation" show="1"></elementInformation>
+                    <elementInformation name="plant" show="1"></elementInformation>
+                    <elementInformation name="supplier" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_led="false" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{dcff3048-dbc5-4934-bd55-915b43936ae7}" Halignment="AlignLeft" y="-22.5" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="2">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
         </elements>
         <conductors>
             <conductor cable="" freezeLabel="false" y="0" conductor_section="" dash-size="2" bus="" terminal1="5" vertirotatetext="270" text_color="#000000" conductor_color="" onetextperfolio="0" numsize="7" num="_" vertical-alignment="AlignRight" horizrotatetext="0" formula="" type="multi" bicolor="false" color2="#000000" x="0" function="" condsize="1" horizontal-alignment="AlignBottom" tension_protocol="" displaytext="1" terminal2="20">
@@ -424,6 +487,9 @@
                 <sequentialNumbers/>
             </conductor>
             <conductor cable="" freezeLabel="false" y="0" conductor_section="" dash-size="2" bus="" terminal1="{4ed26a40-3700-4a45-b746-5668e6ba5dd0}" element1="{89bd2392-a7ab-4c5c-9c73-b1702dc9e524}" vertirotatetext="270" text_color="#000000" conductor_color="" onetextperfolio="0" numsize="7" num="L" vertical-alignment="AlignRight" horizrotatetext="0" formula="L" type="multi" bicolor="false" color2="#000000" usery="430" x="0" function="" userx="450" condsize="1" horizontal-alignment="AlignBottom" tension_protocol="" displaytext="1" terminal2="34">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor cable="" freezeLabel="false" y="0" conductor_section="" dash-size="2" bus="" terminal1="49" vertirotatetext="270" text_color="#000000" conductor_color="" onetextperfolio="0" numsize="7" num="_" vertical-alignment="AlignRight" horizrotatetext="0" formula="" type="multi" bicolor="false" color2="#000000" x="0" function="" condsize="1" horizontal-alignment="AlignBottom" tension_protocol="" displaytext="1" terminal2="13">
                 <sequentialNumbers/>
             </conductor>
         </conductors>
@@ -1268,6 +1334,52 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <text y="8" text="L" rotation="180" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-8" color="#000000"/>
                                     <terminal name="" uuid="{3972b74f-896e-47a4-ad52-f072b010585c}" y="-10" orientation="e" type="Generic" x="10"/>
                                     <terminal name="" uuid="{ef087457-ca91-4960-b919-50989cdba8c0}" y="10" orientation="e" type="Generic" x="10"/>
+                                </description>
+                            </definition>
+                        </element>
+                        <element name="terre.elmt">
+                            <definition link_type="terminal" width="20" height="30" hotspot_y="19" version="0.80" type="element" hotspot_x="10">
+                                <uuid uuid="{e4e753a8-9fde-4e8e-9256-0cf99d67e3de}"/>
+                                <names>
+                                    <name lang="pt">Terra</name>
+                                    <name lang="cs">Uzemnění</name>
+                                    <name lang="it">Terra</name>
+                                    <name lang="el">Γείωση</name>
+                                    <name lang="nl">Aarde</name>
+                                    <name lang="ru">Земля</name>
+                                    <name lang="de">Erde</name>
+                                    <name lang="en">Ground</name>
+                                    <name lang="pl">Uziemienie</name>
+                                    <name lang="es">Tierra</name>
+                                    <name lang="ar">تأريض</name>
+                                    <name lang="fr">Terre</name>
+                                    <name lang="hu">Földelő</name>
+                                </names>
+                                <elementInformations>
+                                    <elementInformation name="comment" show="1"/>
+                                    <elementInformation name="machine_manufacturer_reference" show="1"/>
+                                    <elementInformation name="manufacturer_reference" show="1"/>
+                                    <elementInformation name="description" show="1"/>
+                                    <elementInformation name="manufacturer" show="1"/>
+                                    <elementInformation name="designation" show="1"/>
+                                    <elementInformation name="quantity" show="1"/>
+                                    <elementInformation name="unity" show="1"/>
+                                    <elementInformation name="supplier" show="1"/>
+                                    <elementInformation name="plant" show="1"/>
+                                    <elementInformation name="label" show="1"/>
+                                </elementInformations>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <dynamic_text uuid="{0af57a27-1887-4576-8b51-200ca996e582}" Halignment="AlignLeft" y="-22.5" frame="false" text_width="-1" Valignment="AlignTop" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="2">
+                                        <text/>
+                                        <info_name>label</info_name>
+                                    </dynamic_text>
+                                    <line x2="3" antialias="false" end1="none" y1="4" length1="1.5" end2="none" length2="1.5" y2="4" x1="-3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <line x2="5" antialias="false" end1="none" y1="2" length1="1.5" end2="none" length2="1.5" y2="2" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <line x2="7" antialias="false" end1="none" y1="0" length1="1.5" end2="none" length2="1.5" y2="0" x1="-7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <line x2="0" antialias="false" end1="none" y1="-10" length1="1.5" end2="none" length2="1.5" y2="0" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <terminal y="-11" orientation="n" x="0"/>
                                 </description>
                             </definition>
                         </element>
