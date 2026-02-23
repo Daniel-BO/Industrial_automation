@@ -1,6 +1,6 @@
 <project title="motor_control_basic" version="0.90">
     <properties>
-        <property name="savedtime" show="1">01:21</property>
+        <property name="savedtime" show="1">01:24</property>
         <property name="savedfilepath" show="1">/home/danielbo/Documents/Control_and_automation/Motor_control/Motor_control_basic.qet</property>
         <property name="saveddate-eu" show="1">23-02-2026</property>
         <property name="saveddate" show="1">2/23/26</property>
@@ -353,35 +353,6 @@
                 </properties>
                 <dynamic_texts>
                     <dynamic_elmt_text keep_visual_rotation="true" uuid="{65d66f9e-d64b-4478-8f7f-324b1ef73ad3}" Halignment="AlignLeft" y="-22.5" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="2">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element uuid="{cbbb93c1-8abb-4f34-bebc-74391041388e}" y="550" z="10" orientation="0" prefix="" type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" freezeLabel="false" x="270">
-                <terminals>
-                    <terminal id="50" y="-7" orientation="0" x="0"/>
-                </terminals>
-                <inputs/>
-                <elementInformations>
-                    <elementInformation name="manufacturer_reference" show="1"></elementInformation>
-                    <elementInformation name="label" show="1"></elementInformation>
-                    <elementInformation name="manufacturer" show="1"></elementInformation>
-                    <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
-                    <elementInformation name="quantity" show="1"></elementInformation>
-                    <elementInformation name="unity" show="1"></elementInformation>
-                    <elementInformation name="description" show="1"></elementInformation>
-                    <elementInformation name="designation" show="1"></elementInformation>
-                    <elementInformation name="plant" show="1"></elementInformation>
-                    <elementInformation name="supplier" show="1"></elementInformation>
-                    <elementInformation name="comment" show="1"></elementInformation>
-                </elementInformations>
-                <properties>
-                    <element_type terminal_type="generic" terminal_led="false" terminal_function="generic"/>
-                </properties>
-                <dynamic_texts>
-                    <dynamic_elmt_text keep_visual_rotation="true" uuid="{dcff3048-dbc5-4934-bd55-915b43936ae7}" Halignment="AlignLeft" y="-22.5" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="2">
                         <text></text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
