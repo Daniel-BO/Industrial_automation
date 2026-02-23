@@ -1,0 +1,37 @@
+Entradas:
+Terminal	Señal	Descripción
+I1	BOTON_SUBIR_PB	Llama a PB desde cualquier piso
+I2	BOTON_BAJAR_PB	Envía a P1 solo si está en PB
+I3	BOTON_SUBIR_P1	Llama a P1 desde cualquier piso
+I4	BOTON_BAJAR_P1	Envía a PB solo si está en P1
+I5	FIN_CARRERA_PB	Límite inferior (NA)
+I6	FIN_CARRERA_P1	Límite superior (NA)
+I7	INTERLOCKS	0 = puertas cerradas, 1 = alguna abierta
+I8	PARO_EMERGENCIA	0 = normal, 1 = emergencia
+Salidas:
+Terminal	Señal	Descripción
+Q0	MOTOR_SUBIR	Activa subida
+Q1	MOTOR_BAJAR	Activa bajada
+Q2	LED_PISO	ON = PB, OFF = P1, Parpadeo = error
+Q3	ALARMA	Activa en emergencia
+Indicadores Visuales
+Estado	LED PISO	ALARMA
+Normal en PB	ON	OFF
+Normal en P1	OFF	OFF
+Movimiento	Mantiene estado	OFF
+Puerta abierta (detenido)	Mantiene estado	OFF
+Puerta abierta (moviendo)	Parpadeo rápido	ON
+Paro emergencia	Parpadeo rápido	ON
+Posición perdida	Parpadeo lento (1s)	OFF
+Buscando HOME	Parpadeo medio (500ms)	OFF
+Características Principales
+Seguridad prioritaria: Verifica paro e interlocks antes de cualquier acción
+
+Recuperación automática: Busca PB como home si pierde posición
+
+Indicación clara: LED único muestra estado completo
+
+Operación intuitiva: Botones SUBIR/BAJAR en cada piso
+
+Tiempos de seguridad: Máximo 30 segundos de movimiento
+
